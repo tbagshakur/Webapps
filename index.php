@@ -1,5 +1,5 @@
-#!/usr/bin/python
-print "<!DOCTYPE html>
+<?php
+$pagecode=   "<!DOCTYPE html>
 <html dir=\"ltr\" lang=\"en-US\">
 <head>
 
@@ -309,3 +309,6 @@ delivering best-fit talents for some of the multinational companies across vario
 
 </body>
 </html>\n";
+
+echo "$pagecode";
+?>
